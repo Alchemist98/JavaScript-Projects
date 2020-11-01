@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form name="quiz" onsubmit="return ready()">
+            <h1 align="center">Simple Quiz App</h1>
+            <h3 class="result" align="center">Score: <span class="fa"></span></h3>
+            <h3>1. What is HTML?</h3>
+                <input type="radio" name="q1" value="a" id="q1a">Scripting Language<br>
+                <input type="radio" name="q1" value="b" id="q1b">Programming Language<br>
+                <input type="radio" name="q1" value="c" id="q1c">Backend Language<br>
+                <input type="radio" name="q1" value="d" id="q1d">Crypto Language<br>
+            <h3>2. CSS used for?</h3>
+                <input type="radio" name="q2" value="a" id="q2a">Desining<br>
+                <input type="radio" name="q2" value="b" id="q2b">Hacking<br>
+                <input type="radio" name="q2" value="c" id="q2c">Backend<br>
+                <input type="radio" name="q2" value="d" id="q2d">Structuring<br>
+            <h3>3. JavaScript was founded in?</h3>
+                <input type="radio" name="q3" value="a" id="q3a">1992<br>
+                <input type="radio" name="q3" value="b" id="q3b">2000<br>
+                <input type="radio" name="q3" value="c" id="q3c">1995<br>
+                <input type="radio" name="q3" value="d" id="q3d">1999<br>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+.container{
+  margin: 40px auto;
+  width: 375px;
+  height: 600px;
+  background-color: darkcyan;
+}
+
+
